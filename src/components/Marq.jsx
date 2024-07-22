@@ -9,7 +9,7 @@ function Marq() {
       <div className="my-12">
         <Marquee
           gradient={false}
-          speed={200}
+          speed={200}  
           pauseOnHover={true}
           pauseOnClick={true}
           delay={0}
@@ -18,7 +18,7 @@ function Marq() {
         >
           {skillsData.map((skill, id) => (
             <div
-              className="w-36 min-w-fit h-fit flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg group relative hover:scale-[1.15] cursor-pointer"
+              className="w-36 h-fit flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg group relative hover:scale-[1.15] cursor-pointer"
               key={id}
             >
               <div className="h-full w-full rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 group-hover:border-violet-500 transition-all duration-500">
@@ -32,8 +32,8 @@ function Marq() {
                     <img
                       src={skillsImage(skill)}
                       alt={skill}
-                      width={40}
-                      height={40}
+                      width={30}
+                      height={30}
                       className="h-full w-auto rounded-lg"
                     />
                   </div>
