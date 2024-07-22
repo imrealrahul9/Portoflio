@@ -6,7 +6,6 @@ import GithubCorner from "react-github-corner";
 import Footer from "./components/Footer";
 
 export default function App() {
-  console.log("Rendering GithubCorner");
 
   return (
     <div className="relative">
