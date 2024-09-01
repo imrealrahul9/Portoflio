@@ -23,7 +23,7 @@ function Social() {
         </li>
         <li className="mb-4">
           <a
-            href="https://drive.google.com/file/d/1p88kU2afuU2SYJQUh3XnDtx8iZrFPSNd/view?usp=sharing"
+            href="https://drive.google.com/file/d/1lOwKlsjz3jWE0AdH0BL4qy5dXCAH4j7Y/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Resume Link"
